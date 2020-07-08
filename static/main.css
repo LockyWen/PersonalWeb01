@@ -1,0 +1,96 @@
+* {text-align: center;}
+
+nav{border: 2px solid red;
+    position: fixed;
+    background-color: yellow;
+    width: 20%;
+    top:30%;
+    left:70%;}
+
+form{border: 2px solid green;
+    background-color: yellow;
+    width: 50%;
+    position: relative;
+    left: 25%;}
+
+body {
+    font-size: 12px;
+    color: #333333;
+    background-color: #FFFFFF;
+    margin: 0px;
+    line-height: 150%;
+    padding-top: 1em;
+    padding-bottom: 0px;
+    padding-left: 1em;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.style01 {
+    font-weight: bold;
+    color: #FF0000;
+}
+img {
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+div {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: #CCFFEE;
+    border: 1px solid #66f6ff;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+div div {
+    background-color: #FFFFFF;
+    padding-top: 1em;
+    border: 1px dashed #66fff2;
+}
+dl {
+    font-weight: bold;
+}
+dt {
+    float: left;
+    width: 7em;
+}
+dd {
+}
+span {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+#main {
+    margin: 2em;
+    padding: 0px;
+}
+#leftFrame {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+a:link {
+    color: #45b6ac;
+}
+a:visited {
+    color: #00998c;
+}
+a:hover {
+    color: #00fff6;
+}
+a:active {
+    color: #00fff6;
+}
+
+
+
+
+.dousa div {
+    padding-left: 1em;
+}
+
+

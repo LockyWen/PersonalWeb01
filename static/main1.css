@@ -1,0 +1,148 @@
+*{margin: 0;
+padding: 0;
+}
+
+header > h1{
+    font: bold 50px Tahoma;
+    text-align: center;
+
+}
+
+hgroup > h1{
+    font: bold 20px Tahoma;
+}
+
+header{
+    text-align: center;
+}
+hgroup > h2{
+    font: bold 14px Tahoma;
+}
+
+
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+#big_wrapper{
+    max-width: 1000px;
+    margin: 20px 0px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+    text-align: left;
+}
+
+#top_header{
+    background:yellow;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+#top_menu{
+    border: red;
+    background: pink;
+    color: white;
+}
+
+#top_menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px Tahoma;
+}
+
+#new_div{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+
+
+
+
+#side_news{
+    border: 1px solid red;
+    width: 200px;
+    margin: 20px 0px;
+    padding: 30px;
+    background: #CCFFEE;
+}
+
+#top_footer{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid green;
+    background-color: gray;
+    opacity: 0.8;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+a:hover{
+    background-color: yellow;
+    color: orange;
+    font-weight: bold;
+}
+a:active{
+    background-color: red;
+}
+
+section:hover{
+    opacity: 0.5;
+
+}
+
+#rolling{
+    padding-bottom: 20px;
+    border: 10px solid transparent;
+    -webkit-box-flex: 1;
+    left: 50%;
+    background-color: yellow;
+}
+
+#main_section{
+    border: 1px solid blue;
+    -webkit-box-flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+#rollingButton {
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(+50%);
+    transform: translateY(+50%);
+    left: 38%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
